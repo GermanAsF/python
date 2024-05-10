@@ -4,3 +4,5 @@ You can change the crop of the screenshot.
 You can set a timeout, after which the screengrab will be replaced with an offline image
 
 Its pretty basic, but maybe somebody needs it?
+
+Warning: This WILL Grab windows infront of the window you grab, i can't be asses currently to fix that.
