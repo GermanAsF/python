@@ -1,0 +1,1 @@
+Change the config.php to match your likings

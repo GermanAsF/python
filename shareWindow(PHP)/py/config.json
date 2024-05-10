@@ -1,0 +1,12 @@
+{
+    "api": {
+        "url": "http://yourdomain.com/apifolder/screengrabAPI.php",
+        "pass": "superAwesomerPassweorwer"
+    },
+    "cutoffs": {
+        "top": 88,
+        "bottom": 8,
+        "left": 8,
+        "right": 8
+    }
+}
