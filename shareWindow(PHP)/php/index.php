@@ -17,7 +17,7 @@ $refreshTime = $interval; // Time measured in Earth seconds
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #000; /* A shade as dark as the void of space */
+            background-color: #000;
         }
 
         #picture {
@@ -30,7 +30,7 @@ $refreshTime = $interval; // Time measured in Earth seconds
     <img id="picture" src="img.php" alt="Picture">
     <script>
         // Set the refresh time in milliseconds
-        var refreshTime = <?php echo $refreshTime * 1000; ?>; // Converting Earth seconds to Asgardian milliseconds
+        var refreshTime = <?php echo $refreshTime * 1000; ?>; // Converting Earth seconds to real time units
 
         // Function to refresh the picture every refreshTime
         function refreshPicture() {
