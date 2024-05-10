@@ -2,6 +2,7 @@ This small set of one python and a few php files enables you to share a screensh
 You can set refresh intervals.
 You can change the crop of the screenshot.
 You can set a timeout, after which the screengrab will be replaced with an offline image
+If you change the window positon and/or size, it will automatically adjust
 
 Its pretty basic, but maybe somebody needs it?
 
