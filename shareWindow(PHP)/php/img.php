@@ -1,7 +1,7 @@
 <?php
 require("config.php");
 // Define the paths to the images
-$screengrabPath = "screengrab.png"; // The path to the captured picture
+$screengrabPath = $filename; // The path to the captured picture
 $offlinePath = "offline.png"; // The path to the offline picture
 
 // Check if the screengrab image exists
