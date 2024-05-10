@@ -1,5 +1,6 @@
 This small set of one python and a few php files enables you to share a screenshot of a windows application through your webserver. 
 You can set refresh intervals.
 You can change the crop of the screenshot.
+You can set a timeout, after which the screengrab will be replaced with an offline image
 
 Its pretty basic, but maybe somebody needs it?
