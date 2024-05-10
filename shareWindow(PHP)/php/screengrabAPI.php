@@ -12,7 +12,7 @@ if(isset($_POST['password'])) {
             // Check for errors
             if($file['error'] === UPLOAD_ERR_OK) {
                 // Move the uploaded file to the current directory with the name "screengrab.png"
-                move_uploaded_file($file['tmp_name'], "screengrab.png");
+                move_uploaded_file($file['tmp_name'], $filename);
                 echo "Picture successfully uploaded!";
             } else {
                 echo "Error uploading picture.";
