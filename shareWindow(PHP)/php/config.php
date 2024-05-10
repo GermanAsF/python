@@ -7,4 +7,6 @@ $interval = 20;
 $timeout = 90;
 //Set the Title of the page
 $title = "I am the cookie monster!";
+//Set the Filename to be used
+$filename = "iamsecret.png"
 ?>
